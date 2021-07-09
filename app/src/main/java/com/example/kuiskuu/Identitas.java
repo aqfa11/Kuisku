@@ -11,7 +11,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Identitas extends AppCompatActivity {
+//    button untuk mengeklik page berikutnya
     Button btnKerjakan;
+//    text nama
     EditText ednama, ednim;
 
     String nama, nim;
@@ -20,6 +22,7 @@ public class Identitas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_identitas);
 
+//        memanggil
         btnKerjakan = findViewById(R.id.btnmasuk);
         ednama = findViewById(R.id.isinama);
         ednim = findViewById(R.id.isinim);

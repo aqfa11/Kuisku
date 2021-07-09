@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_margin="10dp"
     tools:context="com.example.kuiskuu.MainActivity">
-
+<!--sambungan dari tulisan kuis sederhana-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         android:id="@+id/kuis"
         android:textSize="20sp"
         android:textStyle="bold"/>
-
+<!--wadah dari pilihan jawaban-->
     <RadioGroup
         android:layout_width="wrap_content"
         android:id="@+id/pilihan"
@@ -50,7 +50,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
+<!--button untuk tulisan next
+fungsinya untuk melanjutan soal berikutnya-->
         <Button
             android:id="@+id/next"
             android:layout_width="wrap_content"

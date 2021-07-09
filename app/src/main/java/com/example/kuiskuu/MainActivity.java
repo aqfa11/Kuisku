@@ -14,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
 
     TextView kuis;
     RadioGroup rg;
+//    adalah pilihan untuk mengeklik jawaban yang benar
     RadioButton PilihanA, PilihanB, PilihanC, PilihanD;
     int nomor = 0;
+//    memampilakn hasil soal,jumlah benarnya ,dan juamlah salahnya
     public static int hasil, benar, salah;
 
-    //pertanyaan
+    //pertanyaan di kelompokan menjadi satu
     String[] pertanyaan_kuis = new String[]{
             "1. Ctrl+P adalah shortcut untuk memunculkan dialog....",
             "2. Rukun Islam ada ?",
@@ -49,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//        untuk mejalankan perintah
         kuis = (TextView) findViewById(R.id.kuis);
         rg = (RadioGroup) findViewById(R.id.pilihan);
         PilihanA = (RadioButton) findViewById(R.id.pilihanA);

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-
+//page untuk menampilkan nilai
 public class HasilKuis extends Activity{
 
     @Override
